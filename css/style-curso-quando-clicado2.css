@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Karantina&display=swap');*/
+/*menu inicio*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+  }
+
+/* menu */
+
+.container-menu{
+  background-color: #1D4036;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.ecobay{
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  width: 170px;
+  margin-left: -85px;
+}
+
+.ecobay h1{
+  color:  #FFFFFF;
+  font-size: 50px;
+  font-family:'Nunito';
+}
+
+.hamburguer{
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 1%;
+}
+
+.hamburguer a{
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburguer img{
+  width: 60px;
+  height: 60px;
+  filter: invert(1);
+}
+
+/* .hamburguer a{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hamburguer-parte{
+  background-color: #FFFFFF;
+  height: 10px;
+  border-radius: 100px;
+  width: 80px;
+}
+
+.hamburguer-partes{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 100px;
+  justify-content: space-around;
+} */
+
+.user{
+  display: flex;
+  align-items: center;
+}
+
+.botaousuario button{
+  padding: 10px;
+  background-color: #158464;
+  color: #FFFFFF;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.user img{
+  height: 60px;
+  margin-left: 16px;
+}
+
+/* fim menu */
+  
+  .botaousuario button{
+    padding: 10px;
+    background-color: #158464;
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 100%;
+  }
+  
+  .user img{
+    height: 60px;
+    margin-left: 16px;
+  }
+  
+  
+.titulo h1{
+    text-align: center;
+    margin-top: 80px;
+    margin-block-end: 50px;
+    font-family:'Nunito';
+    font-size: 400%;
+    color: #4F2E1A;
+} 
+
+.textoimg{
+    background-color: #60B5B4;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    color: #000000;
+    font-size: 60px;
+}
+
+.textoimg p{
+    padding: 23px;
+    font-family:'Nunito';
+    font-size: 65%;
+}
+
+body{
+    background-color:#C7FFF5;
+}
+
+.container{
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+}
+
+.textoimg img{
+    right: 0px;
+    height: 100%;
+    max-width: 60%;
+}
+
+.container2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+.detalhescurso{
+
+    height: 55%;
+    background-color: #60B5B4;
+    width: 40%;
+    text-align: center;
+    border-radius: 12%;
+    font-size: 2vh;
+    font-family:'Nunito';
+}
+
+.detalhescurso h2{
+    margin-top: 12%;
+    font-size: 4vh;
+}
+
+.detalhescurso-linha1{
+    display: flex;
+    margin-left: 7%;
+    padding-top: 5%;
+}
+
+.detalhescurso-linha1 p{
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size: 130%;
+}
+
+.detalhescurso-botao{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detalhescurso-botao button{
+    background-color: #31FFCE;
+    width: 70%;
+    height: 50%;
+    border-radius: 40px;
+    font-size: 140%;
+    border: none;
+    box-shadow: #222222  0 2.5px 2px 0.6px;
+}
+
+
+
+/* rodape */
+
+.rodape{
+  width: 100%;
+  height: 230px;
+  background-color: #16392A;
+  color: #FFFFFF;
+  justify-content:space-between;
+  align-items: center;
+  display: flex;
+}
+
+.red-sociais{
+  margin-left: 30px;
+  width: 30%;
+  height: 100%;
+  font-size: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.red-sociais .red-sociais-imgs{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.red-sociais .red-sociais-imgs .red-social-icone{
+  margin-top: 9px;
+  display: flex;
+  height: 50px;
+  width: 50px;
+}
+
+.red-sociais .red-sociais-imgs .red-social-icone img{
+  width: 100%;
+  filter: invert(1);
+  padding: 7px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.red-sociais .red-sociais-imgs .red-social-icone img:hover{
+  width: 100%;
+  filter: invert(0);
+  padding: 7px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: white;
+  border-radius: 50%;
+}
+
+.red-sociais .red-sociais-imgs .red-social-icone:hover{
+  cursor: pointer;
+  padding-left: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.red-sociais .red-sociais-imgs #twitter-icone{
+  border-radius: 50%;
+}
+
+.contato-empresa{
+  display: flex;
+  width: 60%;
+  height: 100%;
+  flex-direction: column;
+  font-size: 120%;
+  margin-right: 30px;
+}
+
+
+.contatos{
+  margin-left: 10px;
+  padding-bottom: 10px;
+  font-size: 80%;
+}
+
+.empresas{
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.rodape-imagens{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 6px;
+  height: 70px;
+  width: 100%;
+}
+
+.rodape-imagens a{
+  transition: all 0.4s ease-in-out;
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  height: 100%;
+}
+
+.rodape-imagens a:hover{
+  padding-bottom: 7px;
+}

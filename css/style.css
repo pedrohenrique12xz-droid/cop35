@@ -1,0 +1,1332 @@
+/*@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Karantina&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+/* menu */
+
+.container-menu{
+  background-color: #1D4036;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.ecobay{
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  width: 170px;
+  margin-left: -85px;
+}
+
+.ecobay h1{
+  color:  #FFFFFF;
+  font-size: 50px;
+  font-family:'Nunito';
+}
+
+.hamburguer{
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 1%;
+}
+
+.hamburguer a{
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburguer img{
+  width: 60px;
+  height: 60px;
+  filter: invert(1);
+}
+
+/* .hamburguer a{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hamburguer-parte{
+  background-color: #FFFFFF;
+  height: 10px;
+  border-radius: 100px;
+  width: 80px;
+}
+
+.hamburguer-partes{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 100px;
+  justify-content: space-around;
+} */
+
+.user{
+  display: flex;
+  align-items: center;
+}
+
+.botaousuario button{
+  padding: 10px;
+  background-color: #158464;
+  color: #FFFFFF;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.user img{
+  height: 60px;
+  margin-left: 16px;
+}
+
+/* fim menu */
+
+.banner{
+  height: 800px;
+  width: 100%;
+  background-image: url('../img/baner\ principal.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  height: 600px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #C7FFF5;
+}
+
+.texto{
+  width: 50%;
+}
+
+.imagem-texto{
+  max-width: 40%;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagem-texto img{
+  width: 100%;
+  height: 100%;
+}
+
+.container h1 {
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+
+.container p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.container img{
+  border-radius: 25px ;
+}
+
+.botao-container{
+  display: flex;
+  justify-content: center;
+}
+
+.container button{
+  padding: 15 50;
+  width: 300px;
+  color: #FFFFFF;
+  background-color: #44746B;
+  font-size: x-large ;
+  border-radius: 10px;
+  margin-top: 15px;
+  border: none;
+}
+
+.container button:hover{
+  cursor: pointer;
+  background-color: #44746bb0;
+  padding: 15 50;
+  font-size: x-large;
+}
+
+/* cursos */
+
+.container-cursos{
+  background-color: #72EED7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 800px;
+  max-height: 1000px;
+}
+
+.container-cursos button{
+  padding: 15 50;
+  color: #FFFFFF;
+  background-color: #44746B;
+  font-size: x-large ;
+  transition: all ease-in-out 0.1s;
+  border-radius: 10px;
+  border: none;
+}
+
+.container-cursos button:hover{
+  cursor: pointer;
+  background-color: #44746bb0;
+  padding: 15 50;
+  font-size: x-large;
+}
+
+.curso{
+  width: 15%;
+  height: 85%;
+  background-color: #60B5B4;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: all ease-in-out 0.2s
+}
+
+.curso .imagem-do-curso img{
+  border-radius: 5px;
+}
+
+.curso p{
+  height: 150px;
+  font-size: 14px;
+  color: black;
+}
+
+.tempo{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.imagem-tempo{
+ height: 40px;
+ width: 40px;
+}
+
+.cursos{
+  background-color: #72EED7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 800px;
+}
+
+/* .curso:hover{
+  flex-grow: 0.1;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+  max-height: 1000px;
+} */
+
+/* .curso:hover .preco{
+  bottom: 20;
+  transition: all ease-in-out 0.2s;
+} */
+
+.vazio{
+  height: 1000px;
+  width: 100%;
+  background-color: green;
+}
+
+.curso img{
+  max-width: 100%;
+}
+
+.preco{
+  transition: all ease-in-out 0.2s;
+  display: flex;
+  height: 80px;
+  position: absolute;
+  bottom: 25px;
+  width: 90%;
+  font-size: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: large;
+}
+
+.tempo{
+  display: flex;
+  height: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.curso-titulo{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #FFFFFF;
+}
+
+/* fim cursos */
+
+/* texto dos produtos */
+  
+.container-produtos-texto{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  height: 400px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #C7FFF5;
+}
+
+.texto-produtos{
+  width: 50%;
+}
+
+.container-produtos-texto .produtos-texto-imagem{
+  max-width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-produtos-texto .produtos-texto-imagem img{
+  border-radius: 25px;
+  width: 100%;
+}
+
+.container-produtos-texto h1 {
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+
+.container-produtos-texto p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+/* fim do texto dos produtos */
+
+/* produtos */
+
+.container-produtos{
+  background-color: #72EED7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.produtos-imagem-foda{
+  display: flex;
+  max-height: 400px;
+  max-width: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.produtos-imagem-foda img{
+  border-radius: 25px;
+  width: 100%;
+  height: 100%;
+}
+
+.produtos-linha{
+  position: relative;
+  margin-top: 125px;
+  margin-bottom: 125px;
+  display: flex;
+  width: 100%;
+  height: 500px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.produto{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* background-color: blue; */
+  width: 20%;
+  height: 100px;
+  padding: 20px;
+  flex-direction: column;
+  transition: all ease-in-out 0.2s;
+  transition: 0.3s ease-in-out;
+  border-radius: 15px;
+
+  background-color: #60B5B4;
+}
+
+.produto:hover{
+  height: 250px;
+}
+
+.produto-img{
+  position : relative;
+  width : 100%;
+  height : 260px;
+  
+  top : -25%;
+}
+
+.produto-img img{
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.produto .produto-texto{
+  position : relative;
+  top : -140px;
+  padding : 10px 15px;
+  color : #fff;
+  text-align : center;
+  
+  visibility : hidden;
+  opacity : 0;
+  transition : 0.3s ease-in-out;
+}
+
+.produto button{
+  position : relative;
+  top : -140px;
+  padding : 10px 15px;
+  text-align : center;
+  color: #FFFFFF;
+  background-color: #44746B;
+  padding: 15 50;
+  font-size: large ;
+  border-radius: 10px;
+  border: none;
+  
+  visibility : hidden;
+  opacity : 0;
+  transition : 0.3s ease-in-out;
+}
+
+.produto button:hover{
+  cursor: pointer;
+  background-color: #44746bb0;
+}
+
+.produto:hover .produto-texto{
+  margin-top: 80px;
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+
+.produto:hover button{
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+
+
+/* fim dos produtos */
+/* rodape */
+
+.rodape{
+  width: 100%;
+  height: 230px;
+  background-color: #16392A;
+  color: #FFFFFF;
+  justify-content:space-between;
+  align-items: center;
+  display: flex;
+}
+
+.red-sociais{
+  margin-left: 30px;
+  width: 30%;
+  height: 100%;
+  font-size: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.red-sociais .red-sociais-imgs{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.red-sociais .red-sociais-imgs .red-social-icone{
+  margin-top: 9px;
+  display: flex;
+  height: 50px;
+  width: 50px;
+}
+
+.red-sociais .red-sociais-imgs .red-social-icone img{
+  width: 100%;
+  filter: invert(1);
+  padding: 7px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.red-sociais .red-sociais-imgs .red-social-icone img:hover{
+  width: 100%;
+  filter: invert(0);
+  padding: 7px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: white;
+  border-radius: 50%;
+}
+
+.red-sociais .red-sociais-imgs .red-social-icone:hover{
+  cursor: pointer;
+  padding-left: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.red-sociais .red-sociais-imgs #twitter-icone{
+  border-radius: 50%;
+}
+
+.contato-empresa{
+  display: flex;
+  width: 60%;
+  height: 100%;
+  flex-direction: column;
+  font-size: 120%;
+  margin-right: 30px;
+}
+
+
+.contatos{
+  margin-left: 10px;
+  padding-bottom: 10px;
+  font-size: 80%;
+}
+
+.empresas{
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.rodape-imagens{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 6px;
+  height: 70px;
+  width: 100%;
+}
+
+.rodape-imagens a{
+  transition: all 0.4s ease-in-out;
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  height: 100%;
+}
+
+.rodape-imagens a:hover{
+  padding-bottom: 7px;
+}
+
+@media screen and (max-width: 1366px){
+  
+  .curso{
+    width: 20%;
+  }
+
+  .produtos-linha{
+    position: relative;
+    margin-top: 125px;
+    margin-bottom: 125px;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .produto{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    width: 20%;
+    height: 100px;
+    padding: 20px;
+    flex-direction: column;
+    transition: all ease-in-out 0.2s;
+    transition: 0.5s ease-in-out;
+    border-radius: 15px;
+  
+    background-color: #60B5B4;
+  }
+  
+  .produto:hover{
+    height: 380px;
+  }
+
+  .produto:hover .produto-img{
+    position : relative;
+    width : 100%;
+    height : 260px;
+    
+    top : -10%;
+  }
+  
+  .produto-img{
+    position : relative;
+    width : 100%;
+    height : 260px;
+    
+    top : 20%;
+    transition: 0.5s ease-in-out;
+  }
+
+  #produto-img2{
+    position : relative;
+    width : 100%;
+    height : 260px;
+    
+    top : -20%;
+  }
+  
+  .produto-img img{
+    max-width: 100%;
+    border-radius: 15px;
+  }
+  
+  .produto .produto-texto{
+    position : relative;
+    top : -100px;
+    padding : 10px 15px;
+    color : #fff;
+    text-align : center;
+    font-size: 15px;
+    
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+  }
+  
+  .produto button{
+    position: absolute;
+    top: 350px;
+    color: #FFFFFF;
+    background-color: #44746B;
+    font-size: large ;
+    border-radius: 10px;
+    border: none;
+    width: 85%;
+    height: 50px;
+    
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .produto button:hover{
+    cursor: pointer;
+    background-color: #44746bb0;
+  }
+  
+  .produto:hover .produto-texto{
+    margin-top: 80px;
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.2s;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .texto p{
+    font-size: 18px;
+  }
+
+  .imagem-texto{
+    max-width: 45%;
+    max-height: 100%;
+
+    display: flex;
+  }
+
+  .imagem-texto img{
+    width: 100%;
+  }
+
+  /* HORA DOS CURSOS MERMÃO WOOOOHOOOOOOOOOOOOOOOO */
+
+  .container-cursos{
+    background-color: #72EED7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 1000px;
+  }
+  
+  .container-cursos button{
+    padding: 15 50;
+    color: #FFFFFF;
+    background-color: #44746B;
+    font-size: x-large ;
+    transition: all ease-in-out 0.1s;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .container-cursos button:hover{
+    cursor: pointer;
+    background-color: #44746bb0;
+    padding: 15 50;
+    font-size: x-large;
+  }
+  
+  .curso{
+    width: 98%;
+    height: 25%;
+    background-color: #60B5B4;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    transition: all ease-in-out 0.2s
+  }
+  
+  .curso .imagem-do-curso img{
+    border-radius: 5px;
+  }
+  
+  .curso p{
+    height: 150px;
+    font-size: 14px;
+    color: black;
+    text-align: justify;
+  }
+  
+  .tempo{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .imagem-tempo{
+   height: 40px;
+   width: 40px;
+  }
+  
+  .cursos{
+    background-color: #72EED7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 800px;
+  }
+  
+  .vazio{
+    height: 1000px;
+    width: 100%;
+    background-color: green;
+  }
+  
+  .curso img{
+    max-width: 100%;
+  }
+  
+  .preco{
+    transition: all ease-in-out 0.2s;
+    height: 80px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-size: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: large;
+  }
+
+  .preco button{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+  }
+  
+  .tempo{
+    margin-top: 70px;
+    margin-left: 20px;
+    display: flex;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .curso-titulo{
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    width: 800px;
+  }
+
+  .curso-titulo h2{
+    font-size: 23px;
+  }
+
+  .curso-titulo p{
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  /* PRODUTOS VAMBORA QUASE LA */
+
+  .container-produtos-texto h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .container-produtos-texto p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+
+  .produto{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    width: 20%;
+    height: 100px;
+    padding: 20px;
+    flex-direction: column;
+    transition: all ease-in-out 0.2s;
+    transition: 0.5s ease-in-out;
+    border-radius: 15px;
+  
+    background-color: #60B5B4;
+  }
+  
+  .produto:hover{
+    height: 380px;
+  }
+
+  .produto:hover .produto-img{
+    position : relative;
+    width : 100%;
+    height : 260px;
+    
+    top : -10%;
+  }
+  
+  .produto-img{
+    position : relative;
+    width : 100%;
+    height : 260px;
+    
+    top : 60%;
+    transition: 0.5s ease-in-out;
+  }
+
+  #produto-img2{
+    position : relative;
+    width : 100%;
+    height : 260px;
+    
+    top : 50%;
+  }
+  
+  .produto-img img{
+    max-width: 100%;
+    border-radius: 15px;
+  }
+  
+  .produto .produto-texto{
+    position : relative;
+    top : -100px;
+    padding : 10px 15px;
+    color : #fff;
+    text-align : left;
+    font-size: 12px;
+    
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+  }
+  
+  .produto button{
+    position: absolute;
+    top: 370px;
+    color: #FFFFFF;
+    background-color: #44746B;
+    font-size: 13px ;
+    border-radius: 10px;
+    border: none;
+    width: 85%;
+    height: 40px;
+    padding: 0;
+    
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .produto:hover .produto-texto{
+    margin-top: 80px;
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.2s;
+  }
+
+  .produto:hover #produto-img2{
+    position : relative;
+    width : 100%;
+    height : 260px;
+    
+    top : -15%;
+  }
+
+  .produto:hover #produto-img3{
+    position : relative;
+    width : 100%;
+    height : 260px;
+    
+    top : -15%;
+  }
+
+  .rodape{
+    height: 260px;
+  }
+
+  body{
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .ecobay{
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    width: 100px;
+    /* background-color: yellow; */
+    margin-left: -50px;
+  }
+  
+  .ecobay h1{
+    color:  #FFFFFF;
+    font-size: 25px;
+    font-family:'Nunito';
+  }
+
+  /* o veio lá do saiba mais */
+
+  .container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 900px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #C7FFF5;
+  }
+  
+  .texto{
+    width: 90%;
+  }
+  
+  .imagem-texto{
+    max-width: 90%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imagem-texto img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .container h1 {
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+  
+  .container p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .container img{
+    border-radius: 25px ;
+  }
+  
+  .botao-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container button{
+    padding: 15 50;
+    width: 300px;
+    color: #FFFFFF;
+    background-color: #44746B;
+    font-size: x-large ;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: none;
+  }
+  
+  .container button:hover{
+    cursor: pointer;
+    background-color: #44746bb0;
+    padding: 15 50;
+    font-size: x-large;
+  }
+
+  /* hora dos cursos... de novo... TOMA REDBULL PARCEIRO QUE VAMO VOAR AGORA */
+
+  .container-cursos{
+    background-color: #72EED7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 2000px;
+    max-height: none;
+  }
+  
+  .container-cursos button{
+    padding: 15 10;
+    color: #FFFFFF;
+    background-color: #44746B;
+    font-size: small ;
+    transition: all ease-in-out 0.1s;
+    width: 170px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .container-cursos button:hover{
+    cursor: pointer;
+    background-color: #44746bb0;
+    padding: 15 10;
+    font-size: small;
+  }
+  
+  .curso{
+    width: 80%;
+    height: 30%;
+    background-color: #60B5B4;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: all ease-in-out 0.2s
+  }
+  
+  .curso .imagem-do-curso img{
+    border-radius: 5px;
+  }
+  
+  .curso p{
+    height: 150px;
+    font-size: 14px;
+    color: black;
+  }
+  
+  .tempo{
+    position: absolute;
+    bottom: 65px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .imagem-tempo{
+   height: 40px;
+   width: 40px;
+  }
+  
+  .cursos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 90%;
+  }
+
+  
+  .curso img{
+    max-width: 100%;
+  }
+  
+  .preco{
+    transition: all ease-in-out 0.2s;
+    display: flex;
+    height: 60px;
+    position: absolute;
+    bottom: 5px;
+    width: 95%;
+    font-size: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: large;
+  }
+  
+  .tempo{
+    display: flex;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .curso-titulo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    width: 95%;
+  }
+
+  .cursos button{
+    position: static;
+  }
+
+  /* TEXTO DOS PRODUTOS MERMÃO */
+
+  .container-produtos-texto{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #C7FFF5;
+  }
+  
+  .texto-produtos{
+    width: 90%;
+  }
+  
+  .container-produtos-texto .produtos-texto-imagem{
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-produtos-texto .produtos-texto-imagem img{
+    border-radius: 25px;
+    width: 100%;
+  }
+  
+  .container-produtos-texto h1 {
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+  
+  .container-produtos-texto p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  /* TCHAU ANIMACOES LOUCAS Q ERAM MT DAORAS ;( */
+
+  .produtos-linha{
+    flex-direction: column;
+  }
+
+  .container-produtos{
+    height: 1000px;
+  }
+
+  .produto{
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    width: 90%;
+    height: 150px;
+    padding: 10px 10px 80px 10px;
+    flex-direction: row;
+    transition: all ease-in-out 0.2s;
+    transition: 0.5s ease-in-out; 
+    border-radius: 15px;
+  
+    background-color: #60B5B4;
+  }
+  
+  .produto:hover{
+    height: 150px;
+  }
+
+  .produto:hover .produto-img{
+    position : absolute;
+    left: 10px;
+    width : 40%;
+    height: 100%;
+    
+    top : 15%;
+  }
+  
+  .produto-img{
+    position : absolute;
+    width : 40%;
+    left: 10px;
+    height : 100%;
+    
+    
+    top : 15%;
+  }
+
+  #produto-img2{
+    position : absolute;
+    width : 40%;
+    left: 10px;
+    height : 100%;
+    
+    
+    top : 10%;
+  }
+  
+  .produto-img img{
+    max-width: 100%;
+    border-radius: 15px;
+  }
+  
+  .produto .produto-texto{
+    position : relative;
+    top : -0px;
+    right: -100px;
+    padding : 10px 15px;
+    color : #fff;
+    text-align : left;
+    font-size: 12px;
+    width: 55%;
+    
+    visibility : visible;
+    opacity : 1;
+    transition : 0.3s ease-in-out;
+  }
+  
+  .produto button{
+    position: absolute;
+    top: 145px;
+    color: #FFFFFF;
+    background-color: #44746B;
+    font-size: 13px ;
+    border-radius: 10px;
+    border: none;
+    width: 85%;
+    height: 40px;
+    padding: 0;
+    
+    visibility: visible;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .produto:hover .produto-texto{
+    margin-top: 0px;
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.2s;
+  }
+
+  .produto:hover #produto-img2{
+    position : absolute;
+    width : 40%;
+    left: 10px;
+    height : 100%;
+    
+    
+    top : 10%;
+  }
+
+  .produto:hover #produto-img3{
+    position : absolute;
+    width : 40%;
+    left: 10px;
+    height : 100%;
+    
+    
+    top : 15%;
+  }
+
+  .rodape{
+    height: 300px;
+  }
+
+  .rodape-imagens a{
+    width: 30%;
+  }
+
+  .rodape-imagens a img{
+    width: 100%;
+  }
+}

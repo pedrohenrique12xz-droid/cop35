@@ -1,0 +1,214 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoBay</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <!-- começo do menu -->
+
+    <div class="container-menu">
+        <div class="hamburguer">
+            <a href="index.html">
+                <img src="img/leaf-solid.svg">
+            </a>
+        </div>
+        <div class="ecobay"><h1>EcoBay</h1></div>
+        <div class="user">
+            <div class="botaousuario">
+                <button onclick="Login()">Cadastre-se</button>
+            </div>
+            <img src="img/Capturar2.PNG">
+        </div>
+    </div>
+
+    <!-- Fim do menu -->
+
+    <!-- banner -->
+    <div class="banner">
+
+    </div>
+    <!-- banner -->
+
+    <!-- explicacao -->
+    <div class="container">
+        <div class="texto">
+        <h1>Quem somos?</h1>
+        
+            <!-- <p>
+            Somos um site que prega o conhecimento sobre o desenvolvimento sustentável, e que ajuda você a conseguir seu desejado trabalho dentro de algum ramo do meio ambiente. Estamos dispostos a não só ajudar com sua educação sobre o meio ambiente, mas como também proporcionar recomendações de itens que podem te ajudar a se tornar uma pessoa mais ambientalmente sustentável.
+            </p>
+            <p>
+            O desenvolvimento sustentável é um conceito que busca atender às necessidades do presente sem comprometer a capacidade das futuras gerações de atenderem às suas próprias necessidades, visando a preservação dos recursos naturais e o bem-estar das pessoas.
+            </p> -->
+            <p>
+            com o curso que oferecemos esperamos que as pessoas possam ter uma vida mais natural se conectando com a natureza e podendo viver em harmonia com a natureza.
+            </p>
+            <div class="botao-container">
+            <button onclick="saibaMais()">Saiba mais</button>
+            </div>
+        </div>
+        <div class="imagem-texto">
+            <img src="img/veio-analise.jpeg" alt="">
+        </div>
+    </div>
+    <!-- explicacao -->
+
+    <div class="container-cursos">
+        <div class="cursos">
+            <div class="curso">
+                <img src="img/ratatui.svg">
+                <div class="curso-titulo"> <h2>Temperos e Iguarias</h2>
+                    <p>Aprenda a transformar suas receitas em pratos incríveis com o curso de Temperos e Iguarias da EcoBay. Descubra os segredos das iguarias e ervas aromáticas para dar um sabor único aos seus pratos. Torne-se um expert em culinária de forma simples e práticas.</p>
+                </div>
+                
+                <div class="tempo"><div class="imagem-tempo"><img src="img/relogio.PNG"></div><h3>6 meses</h3></div>
+                <div class="preco">
+                    <button onclick="verCursos1()">Ver curso</button>
+                </div>
+            </div>
+
+            <div class="curso">
+                <img src="img/image 30.svg">
+                <div class="curso-titulo"> <h2>Jardinagem</h2>
+                    <p>O curso de jardinagem é ideal para aqueles que desejam transformar seus espaços externos em verdadeiros oásis verdes. Durante o curso, você aprenderá desde os princípios básicos de design de jardins até técnicas avançadas de plantio, cuidado e manutenção.</p>
+                </div>
+                
+                <div class="tempo">
+                    <div class="imagem-tempo">
+                        <img src="img/relogio.PNG">
+                    </div>
+                    <h3>6 meses</h3>
+                </div>
+                <div class="preco">
+                    <button onclick="verCursos2()">Ver curso</button>
+                </div>
+            </div>
+
+            <div class="curso">
+                <img src="img/image 34.svg">
+                <div class="curso-titulo"> <h2>Ecologia</h2>
+                    <p>O curso de ecologia é uma oportunidade para você explorar o mundo natural e aprender sobre a interação dos seres vivos com o meio ambiente, desde a biodiversidade até as mudanças climáticas.</p>
+                </div>
+                
+                <div class="tempo"><div class="imagem-tempo"><img src="img/relogio.PNG"></div><h3>6 meses</h3></div>
+                <div class="preco">
+                    <button onclick="verCursos3()">Ver curso</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="mais-cursos">
+        <!--      <button onclick="outrosCursos()">Veja outros cursos!</button> --> <!-- ADICIONAR FUNCTION MAIS TARDE -->
+            <button onclick="meusCursos()">Veja seus cursos!</button>
+        </div>
+    </div>
+
+    <div class="container-produtos-texto">
+        <div class="produtos-texto-imagem">
+            <img src="img/produtos-sustentaveis.jpg">
+        </div>
+        <div class="texto-produtos">
+        <h1>Veja alguns produtos</h1>
+        
+            <p>
+                Produtos sustentáveis e renováveis são produzidos com materiais reciclados, reutilizados ou biodegradáveis, além de serem baseados em fontes de energia limpa e renovável. Eles visam minimizar o impacto ambiental e preservar os recursos naturais, contribuindo para o desenvolvimento sustentável e a redução da pegada ecológica.             
+            </p>
+        </div>
+
+        
+    </div>
+
+    <!-- produtos -->
+
+    <div class="container-produtos">
+
+        <div class="produtos-imagem-foda"><img src="img/produtos-sustentaveis-grande.jpg"></div>
+
+        <div class="produtos-linha">
+            <div class="produto">
+
+                <div class="produto-img" id="produto-img1">
+                    <img src="img/beneficios-energia-solar.jpg">
+                </div>
+
+                <div class="produto-texto">
+                    <p>Energia solar residencial: Painéis solares residenciais convertem luz solar em eletricidade limpa, reduzindo a dependência de combustíveis fósseis e emissões de gases de efeito estufa. Energia solar: uma opção sustentável para residências.</p>
+                </div>
+
+                <button>Cheque no site!</button>
+            </div>
+
+            <div class="produto">
+                <div class="produto-img" id="produto-img2">
+                    <img src="img/carro-eletrico.jpeg">
+                </div>
+                <div class="produto-texto">
+                    <p>Veículos elétricos: Carros movidos a baterias recarregáveis que não emitem poluentes e contribuem para a redução das emissões de gases de efeito estufa, promovendo um transporte mais sustentável.</p>
+                </div>
+
+                <button>Cheque no site!</button>
+            </div>
+
+            <div class="produto">
+                <div class="produto-img" id="produto-img3">
+                    <img src="img/embalagens-sustentáveis-1.jpg">
+                </div>
+                <div class="produto-texto">
+                    <p>Embalagens biodegradáveis: 
+                        Embalagens biodegradáveis são feitas de materiais orgânicos e se decompõem naturalmente, sendo uma opção sustentável que reduz a poluição ambiental e preserva a biodiversidade.</p>
+                </div>
+
+                <button>Cheque no site!</button>
+            </div>
+        </div>
+
+        
+
+    </div>
+    
+
+    <!-- rodape -->
+
+    <div class="rodape">
+        <div  class="red-sociais">
+            <h2>Redes Sociais:</h2>
+            <div class="red-sociais-imgs">
+                <div class="red-social-icone"><img src="img/twitter.svg" alt="" id="twitter-icone"></div>
+                <div class="red-social-icone"><img src="img/facebook-f.svg" alt=""></div>
+                <div class="red-social-icone"><img src="img/instagram.svg" alt=""></div>
+            </div>
+        </div>
+        
+        <div class="contato-empresa">
+            <div class="contatos">
+                <p>
+                    Caso as Redes Sociais não estejam disponíveis, nos contate por: <br><br>
+
+                    Telefone: +55 (12) 99123-1231<br>
+                    Gmail: naoe@e.cario.com<br>
+                    Endereço: Rua Maria da Joana 1234<br>
+                </p>  
+            </div>
+            <hr>
+            <div class="empresas">
+               <p>  
+                   Empresas associadas à Ecobay:<br>
+               </p>
+                <div class="rodape-imagens">
+                    <a href="#"><img src="img/acciona_oglogo.jpg" alt=""></a>
+                    <a href="#"><img src="img/klabin.jpg" alt=""></a>
+                    <a href="#"><img src="img/renner.png" alt=""></a>
+                    <!-- Amazon.com<br>
+                    Mercadolivre.com<br>
+                    Feiradorolo.com<br>
+                    Naturezaetop.com<br> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap%27');
+
+* {
+ padding: 0;
+ margin: 0;
+ font-family: 'Nunito', sans-serif;
+}
+
+.giga {
+  background-color: #158464;
+  width: 100%;
+  height: 880px;
+}
+
+.fundo {
+  background:url(../img/image\ 38.jpg);
+  float: left;
+  width: 40%;
+  height: 100%;
+}
+
+.fundolog {
+  float: right;
+  width: 60%;
+  height: 100%;
+}
+
+.bloco-login {
+  position: absolute;
+  background-color: #C7FFF5;
+  width: 1000px;
+  height: 650px;
+  margin-top: 10%;
+  margin-left: -20%;
+  border-radius: 60px;
+}
+
+.Eco {
+  position: absolute;
+  margin-top: 0px;
+  font-size: 60px;
+  margin-left: 40%;
+}
+
+.nome {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 47%;
+  visibility: hidden;
+}
+
+.usario {
+  margin-top: 40px;
+  font-size: 30px;
+  margin-left: 20%;
+}
+
+.emailcom {
+  width: 600px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  margin-left: 20%;
+}
+
+.usario1 {
+  margin-top: 20px;
+  font-size: 30px;
+  margin-left: 20%
+}
+
+.emailcom1 {
+  width: 600px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  margin-left: 20%;
+}
+
+.butão {
+  width: 400px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 27%;
+  background-color: #158464;
+  border-radius: 20px; 
+  border: none;
+  font-size: 20px;
+}
+
+.entre {
+  margin-left: 40%;
+  margin-top: 30px;
+}
+
+.ficso{
+  max-height: 20px;
+}
+
+.sla {
+  margin-left: 34%;
+  margin-top: 10px;
+  width: 300px;
+}
+
+.sla1 {
+  margin-left: 37%;
+  height: 80px;
+}
+
+.se {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 33%;
+  max-width: 180px;
+}
+
+.arthur {
+  position: absolute;
+  margin-left: 40%;
+}

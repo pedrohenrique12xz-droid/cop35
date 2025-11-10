@@ -1,0 +1,363 @@
+/*@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Karantina&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+/* menu */
+
+.container-menu{
+  background-color: #1D4036;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.ecobay{
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  width: 170px;
+  margin-left: -85px;
+}
+
+.ecobay h1{
+  color:  #FFFFFF;
+  font-size: 50px;
+  font-family:'Nunito';
+}
+
+.hamburguer{
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 1%;
+}
+
+.hamburguer a{
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburguer img{
+  width: 60px;
+  height: 60px;
+  filter: invert(1);
+}
+
+/* .hamburguer a{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hamburguer-parte{
+  background-color: #FFFFFF;
+  height: 10px;
+  border-radius: 100px;
+  width: 80px;
+}
+
+.hamburguer-partes{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 100px;
+  justify-content: space-around;
+} */
+
+.user{
+  display: flex;
+  align-items: center;
+}
+
+.botaousuario button{
+  padding: 10px;
+  background-color: #158464;
+  color: #FFFFFF;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.user img{
+  height: 60px;
+  margin-left: 16px;
+}
+
+/* fim menu */
+
+/* inicio meus cursos */
+
+.giga {
+   width: 100%;
+   height: 800px;
+   padding-bottom: 100px;
+   background-color: #C7FFF5;
+   justify-content: center;
+   display: flex;
+}
+
+.giga h1{
+   padding: 25px;
+   font-size: 60px;
+   position: absolute;
+}
+
+.envolve {
+   margin-top: 7%;
+   height: 16%;
+   width: 100%;
+   position: absolute;
+}
+
+.butão {
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   justify-content: space-around;
+   position: absolute;
+}
+
+#btn1 {
+   width: 20%;
+   height: 50%;
+   font-size: 25px;
+   background-color: #C7FFF5;
+   margin-right: 3%;
+   border-style: solid;
+   border-width: 2px;
+   border-color: #000000;
+}
+
+#btn2 {
+   width: 20%;
+   height: 50%;
+   font-size: 25px;
+   background-color: #C7FFF5;
+   margin-right: 3%;
+   border-style: solid;
+   border-width: 2px;
+   border-color: #000000;
+}
+
+#btn3 {
+   width: 20%;
+   height: 50%;
+   font-size: 25px;
+   background-color: #C7FFF5;
+   border-style: solid;
+   border-width: 2px;
+   border-color: #000000;
+}
+
+
+.geral {
+   display: flex;
+   margin-top: 11%;
+   width: 95%;
+   height: 75%;
+   position: absolute;
+}
+
+.area {
+   display: none;
+   align-items: center;
+   justify-content: center;
+}
+
+.area.active {
+   display: block;
+}
+
+button {
+   background-color: #C7FFF5;
+   width: 100px;
+   height: 30px;
+}
+
+
+#area1 {
+   height: 100%;
+   width: 100%;
+}
+
+#area2 {
+   height: 100%;
+   width: 100%;
+   
+}
+
+#area3 {
+   height: 100%;
+   width: 100%;
+}
+
+.grelha {
+   margin-top: 3%;
+   margin-right: 2%;
+   margin-left: 2%;
+   width: 96%;
+   height: 18%;
+   background-color: #183F33;
+   display: flex;
+   color: #FFFFFF;
+   font-size: 150%;
+}
+
+.grelha:hover{
+  cursor: pointer;
+}
+
+.grelha img {
+   padding: 0.5%;
+   margin-right: 3%;
+   width: 170px;
+}
+
+#informaçãodocurso {
+   margin-right: 7%;
+   margin-top: 15px;
+   width: 200px;
+}
+
+#informaçãodocurso1 {
+  margin-right: 7%;
+  margin-top: 5px;
+  width: 200px;
+  font-size: 20px;
+}
+
+#completo {
+   margin-top: 35px;
+   margin-right: 5%;
+}
+
+#data {
+   margin-top: 34px;
+}
+
+.bagre {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   margin-top: 15%;
+   color: cornflowerblue;
+}
+
+/* rodape */
+
+.rodape{
+  width: 100%;
+  height: 230px;
+  background-color: #16392A;
+  color: #FFFFFF;
+  justify-content:space-between;
+  align-items: center;
+  display: flex;
+}
+
+.red-sociais{
+  margin-left: 30px;
+  width: 30%;
+  height: 100%;
+  font-size: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.red-sociais .red-sociais-imgs{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.red-sociais .red-sociais-imgs .red-social-icone{
+  margin-top: 9px;
+  display: flex;
+  height: 50px;
+  width: 50px;
+}
+
+.red-sociais .red-sociais-imgs .red-social-icone img{
+  width: 100%;
+  filter: invert(1);
+  padding: 7px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.red-sociais .red-sociais-imgs .red-social-icone img:hover{
+  width: 100%;
+  filter: invert(0);
+  padding: 7px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: white;
+  border-radius: 50%;
+}
+
+.red-sociais .red-sociais-imgs .red-social-icone:hover{
+  cursor: pointer;
+  padding-left: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.red-sociais .red-sociais-imgs #twitter-icone{
+  border-radius: 50%;
+}
+
+.contato-empresa{
+  display: flex;
+  width: 60%;
+  height: 100%;
+  flex-direction: column;
+  font-size: 120%;
+  margin-right: 30px;
+}
+
+
+.contatos{
+  margin-left: 10px;
+  padding-bottom: 10px;
+  font-size: 80%;
+}
+
+.empresas{
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.rodape-imagens{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 6px;
+  height: 70px;
+  width: 100%;
+}
+
+.rodape-imagens a{
+  transition: all 0.4s ease-in-out;
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  height: 100%;
+}
+
+.rodape-imagens a:hover{
+  padding-bottom: 7px;
+}

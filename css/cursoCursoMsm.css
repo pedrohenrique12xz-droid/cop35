@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   font-family: 'Nunito', sans-serif;
+}
+
+/* menu */
+
+.container-menu{
+  background-color: #1D4036;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.ecobay{
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  width: 170px;
+  margin-left: -85px;
+}
+
+.ecobay h1{
+  color:  #FFFFFF;
+  font-size: 50px;
+  font-family:'Nunito';
+}
+
+.hamburguer{
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 1%;
+}
+
+.hamburguer a{
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburguer img{
+  width: 60px;
+  height: 60px;
+  filter: invert(1);
+}
+
+/* .hamburguer a{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hamburguer-parte{
+  background-color: #FFFFFF;
+  height: 10px;
+  border-radius: 100px;
+  width: 80px;
+}
+
+.hamburguer-partes{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 100px;
+  justify-content: space-around;
+} */
+
+.user{
+  display: flex;
+  align-items: center;
+}
+
+.botaousuario button{
+  padding: 10px;
+  background-color: #158464;
+  color: #FFFFFF;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.user img{
+  height: 60px;
+  margin-left: 16px;
+}
+
+/* fim menu */
+
+.giga {
+   display: flex;
+   background-color: #C7FFF5;
+   width: 100%;
+   padding: 80px 0px;
+   height: 1200px;
+   flex-direction: column;
+}
+
+.titulo-curso{
+  background-color: #C7FFF5;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 80px;
+}
+
+.aula1{
+  position: relative;
+  display: flex;
+  background-color: #44746B;
+  align-items: center;
+  margin-top: 7%;
+  margin-left: 5%;
+  width: 90%;
+  height: 30%;
+  margin-left: 5%;
+  margin-block-end: 3%;
+  margin-top: 30px;
+}
+
+.arquivos{
+  background-color: gainsboro;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 90%;
+  width: 60%;
+  position: absolute;
+  right: 20px;
+  border: 2px dashed gray;
+}
+
+.aula1 a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(240, 240, 240);
+  height: 50%;
+  width: 20%;
+}
+
+.aula1 a img{
+  max-width: 100%;
+  max-height: 60%;
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+#ligrande{
+  font-size: x-large;
+  font-weight: 600;
+  list-style: none;
+}
+
+.outroli{
+  margin-left: 40px;
+}
+
+.aula1 iframe{
+  position: absolute;
+  right: 10px;
+}
+
+.aula1 .formulario{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  right: 20px;
+  height: 95%;
+  width: 60%;
+  background-color: gainsboro;
+}
+
+.formulario h1{
+  text-align: center;
+}
+
+.formulario p{
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.aula1 form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  height: 60%;
+  width: 80%;
+  border: 2px dashed gray;
+}
+
+.aula1 #icone{
+  width: 40px;
+  height: 40px;
+}
+
+.telaimg{
+  width: 12%;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.arquivo-pronto{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: 50px;
+  padding: 5px;
+  margin-top: 15px;
+  background-color: gray;
+}
+
+/* section .linha{
+  background-color: #44746B;
+  margin-bottom: 10px;
+  list-style: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section .detalhes span{
+  font-size: 12px;
+}
+
+.area-progresso .linha .conteudo{
+  width: 100%;
+  margin-left: 15px;
+}
+
+.area-progresso .detalhes{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arquivos-uploaded .linha .conteudo{
+  display: flex;
+  align-items: center;
+}
+
+.arquivos-uploaded .linha .conteudo{
+  display: flex;
+  margin-left: 15px;
+  flex-direction: column;
+} */
+
+
+/* rodape */
+
+.rodape{
+  width: 100%;
+  height: 230px;
+  background-color: #16392A;
+  color: #FFFFFF;
+  justify-content:space-between;
+  align-items: center;
+  display: flex;
+}
+
+.red-sociais{
+  margin-left: 30px;
+  width: 30%;
+  height: 100%;
+  font-size: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.red-sociais .red-sociais-imgs{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.red-sociais .red-sociais-imgs .red-social-icone{
+  margin-top: 9px;
+  display: flex;
+  height: 50px;
+  width: 50px;
+}
+
+.red-sociais .red-sociais-imgs .red-social-icone img{
+  width: 100%;
+  filter: invert(1);
+  padding: 7px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.red-sociais .red-sociais-imgs .red-social-icone img:hover{
+  width: 100%;
+  filter: invert(0);
+  padding: 7px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: white;
+  border-radius: 50%;
+}
+
+.red-sociais .red-sociais-imgs .red-social-icone:hover{
+  cursor: pointer;
+  padding-left: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.red-sociais .red-sociais-imgs #twitter-icone{
+  border-radius: 50%;
+}
+
+.contato-empresa{
+  display: flex;
+  width: 60%;
+  height: 100%;
+  flex-direction: column;
+  font-size: 120%;
+  margin-right: 30px;
+}
+
+
+.contatos{
+  margin-left: 10px;
+  padding-bottom: 10px;
+  font-size: 80%;
+}
+
+.empresas{
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.rodape-imagens{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 6px;
+  height: 70px;
+  width: 100%;
+}
+
+.rodape-imagens a{
+  transition: all 0.4s ease-in-out;
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  height: 100%;
+}
+
+.rodape-imagens a:hover{
+  padding-bottom: 7px;
+}
